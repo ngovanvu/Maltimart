@@ -1,0 +1,25 @@
+.form__group{
+    border: 1px solid var(--primary-color);
+}
+.auth__form{
+    background: var(--primary-color);
+    padding: 40px;
+    border-radius: 5px;
+}
+.form__group input{
+    background: #fff;
+    border-radius: 5px;
+}
+.auth__form p{
+    margin-top: 30px;
+    font-size: 1.1rem;
+}
+.auth__form p a{
+    color: rgba(255, 255, 255, 0.735);
+}
+/* ============SignUp================= */
+.auth__form input[type='file']{
+    background: var(--primary-color);
+    cursor: pointer;
+    color: #fff;
+}

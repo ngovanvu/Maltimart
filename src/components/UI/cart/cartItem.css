@@ -1,0 +1,30 @@
+.cart__item {
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--card-bg-03);
+}
+.cart__item-info img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.cart__product-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.cart__product-price{
+    
+    color: var(--primary-color);
+}
+.increase__decrease-btn{
+   
+    background: var(--card-bg-03);
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.increase__btn , .decrease__btn{
+    cursor: pointer;
+}
+.delete__btn{
+    font-size: 1.1rem;
+}

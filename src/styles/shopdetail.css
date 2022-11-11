@@ -1,0 +1,107 @@
+.product__detail{
+    margin-top: 80px;
+}
+
+.product__detail h2{
+    font-size: 1.5rem;
+}
+.product__rating{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.product__rating span i{
+    color: coral
+}
+.product__rating p span{
+    color: coral
+}
+.product__price{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    margin-bottom: 15px;
+}
+.product__price p{
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.shop__btn{
+    margin-top: 35px;
+}
+
+.tabs h6{
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.tab__active{
+    font-weight: 600;
+    background: var(--card-bg-03);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.tab__content p{
+   color: var(--primary-color);
+    line-height: 30px;
+}
+
+.product__review{
+    margin-top: 10px;
+}
+.review__wrapper ul li span{
+    color: coral;
+    font-weight: 600;
+}
+.review__wrapper ul li span{
+    margin-top: 16px;
+}
+
+.review__form{
+    width: 60%;
+    margin: auto;
+    background: var(--card-bg-03);
+    padding: 20px;
+    border-radius: 5px;
+}
+.review__form h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.form__group{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.form__group input,
+.form__group textarea{
+    width: 100%;
+    background: transparent;
+    padding: 7px 20px;
+    border: none;
+    border-bottom: 1px solid #2122454c;
+}
+
+.form__group input:focus,
+.form__group textarea:focus{
+    outline: none;
+}
+.form__group span{
+    color: coral;
+    cursor: pointer;
+    font-weight: 600;
+}
+.related__Product-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 30px;
+ }
+ @media only screen and (max-width:576px){
+    .form__group{
+        column-gap: 1rem !important;
+    }
+ }

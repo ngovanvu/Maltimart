@@ -1,0 +1,81 @@
+/* ==========Banner======== */
+.banner__content{
+    background: var( --card-bg-02);
+    width: 100%;
+    margin: 0;
+}
+.hero__content{
+    padding:  40px 0px;
+}
+.hero__content h6{
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+.hero__content h1{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.hero__content p{
+    margin-bottom: 30px;
+}
+
+.shop__btn {
+    background: var(--heading-text-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+   padding: 7px 17px;
+   cursor: pointer;
+   font-weight: 600;
+}
+.shop__btn a:hover{
+    color: #fff;
+}
+/* ==========BannerTime========= */
+.banner__time{
+    background: var(--primary-color);
+    width: 100%;
+    margin: 0;
+    height: 300px;
+}
+.banner__time img{
+    width: 70%;
+    height: 80%;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.store__btn{
+    background: #fff;
+    color: var(--primary-color);
+    margin-top: 20px;
+}
+.store__btn a:hover{
+    color: var(--primary-color);
+}
+@media only screen and (max-width: 756px){
+    
+    .hero__content{
+        padding: 20px 0;
+    }
+    .hero__content h6{
+        font-size: 0.9rem;
+    }
+    .hero__content h1{
+        font-size: 1.7rem;
+    }
+    .hero__content p{
+        font-size: 0.8rem;
+        margin-bottom: 15px;
+    }
+    .shop__btn {
+        padding: 5px 15px;
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .shop__btn{
+        padding: 5px 15px;
+        font-size: 0.8rem;
+    }
+}
